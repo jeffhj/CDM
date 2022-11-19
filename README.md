@@ -2,6 +2,11 @@
 
 The code and data for "[Understanding Jargon: Combining Extraction and Generation for Definition Modeling](https://arxiv.org/pdf/2111.07267.pdf)" (EMNLP '22)
 
+## Introduction
+
+We propose to combine extraction and generation for jargon definition modeling: first extract self- and correlative definitional information of target jargon from the Web and then generate the final definitions by incorporating the extracted definitional information. Our framework is remarkably simple but effective: experiments demonstrate our method can generate high-quality definitions for jargon and outperform state-of-the-art models significantly, e.g., BLEU score from 8.76 to 22.66 and human-annotated score from 2.34 to 4.04.
+
+![image](https://user-images.githubusercontent.com/47152740/202871630-5afbafbb-49dc-48f8-8ba0-5af716a79c46.png)
 
 
 ## Usage
