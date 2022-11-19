@@ -1,9 +1,5 @@
 # CDM (Extraction)
 
-
-
----
-
 ## SDI-Extractor ##
 
 All the following scripts need to be run in order.
@@ -37,22 +33,11 @@ All the following scripts need to be run in order.
 
 ## CDI-Extractor
 
-You may use [Wikipedia API](# https://pypi.org/project/wikipedia/) to collect CDI:
+You may use [Wikipedia API](https://pypi.org/project/wikipedia/) to collect CDI:
 
 - Use `wikipedia.search(term)` to collect related terms
 
 - Use `wikipedia.summary(term)` to collect summaries of terms
 - extract first sentences in the summaries
-
-```
-# https://pypi.org/project/wikipedia/
-import wikipedia
-def get_wiki_search_result(term, mode=0):
-    if mode==0:
-        return wikipedia.search(f"\"{term}\"")
-    else:
-        return wikipedia.search(term)
-```
-
 
 
